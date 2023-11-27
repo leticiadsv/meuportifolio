@@ -1,0 +1,154 @@
+/* Importando as fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* Resetando estilos padrão para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Estilizando o corpo da página */
+body {
+  font-size: 100%; /* Define o tamanho base da fonte como 100% */
+  background: linear-gradient(68.15deg, #F2E3D0 16.62%, #F2E3D0 85.61%); /* Aplica um gradiente linear como plano de fundo */
+}
+
+/* Estilizando a seção do cabeçalho */
+.cabecalho {
+  display: flex; /* Utiliza flexbox para o layout */
+  flex-direction: row; /* Organiza os elementos filhos em uma linha */
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: space-around; /* Distribui espaço ao redor dos elementos filhos */
+  padding: 20px; /* Adiciona preenchimento */
+}
+
+.cabecalho-imagem {
+  height: 72px; /* Define a altura da imagem do cabeçalho */
+}
+
+.cabecalho-menu {
+  display: flex; /* Utiliza flexbox para o layout do menu */
+  gap: 32px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif; /* Utiliza a família de fontes 'Sarala' */
+  color: #916848; /* Define a cor do texto */
+  font-weight: 400; /* Define o peso da fonte */
+  font-size: 18px; /* Define o tamanho da fonte */
+}
+
+/* Estilizando a seção principal de conteúdo */
+.conteudo {
+  margin-bottom: 48px; /* Adiciona margem inferior */
+  border-top: 0.4px solid #916848; /* Adiciona uma borda superior */
+}
+
+.conteudo-principal {
+  display: flex; /* Utiliza flexbox para o layout */
+  flex-direction: row; /* Organiza os elementos filhos em uma linha */
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: space-around; /* Distribui espaço ao redor dos elementos filhos */
+  margin-top: 30px;
+}
+
+.conteudo-principal-escrito {
+  display: flex; /* Utiliza flexbox para o layout */
+  flex-direction: column; /* Organiza os elementos filhos em uma coluna */
+  gap: 32px; /* Adiciona espaçamento entre os elementos */
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive; /* Utiliza a família de fontes 'Righteous' */
+  font-weight: 400; /* Define o peso da fonte */
+  font-size: 64px; /* Define o tamanho da fonte */
+  color: #916848; /* Define a cor do texto */
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif; /* Utiliza a família de fontes 'Sarala' */
+  font-weight: 400; /* Define o peso da fonte */
+  font-size: 24px; /* Define o tamanho da fonte */
+  color: #916848; /* Define a cor do texto */
+  height: 180px; 
+  width: 700px;
+}
+
+.conteudo-principal-escrito-botao {
+  /* Estilizando o botão */
+  background-color: #916848; /* Define a cor de fundo */
+  width: 180px; /* Define a largura */
+  height: 60px; /* Define a altura */
+  border: none; /* Remove a borda */
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /* Adiciona uma sombra */
+  border-radius: 20px; /* Adiciona borda arredondada */
+  font-family: 'Sarala', sans-serif; /* Utiliza a família de fontes 'Sarala' */
+  font-weight: 700; /* Define o peso da fonte */
+  font-size: 18px; /* Define o tamanho da fonte */
+  color: #2F2325; /* Define a cor do texto */
+  position: static;
+  margin-top: 50px;
+ 
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(255, 255, 255, 0.53); /* Altera a cor de fundo ao passar o mouse */
+}
+
+.conteudo-principal-imagem {
+  height: 300px; /* Define a altura da imagem principal */
+}
+
+/* Estilizando a seção secundária de conteúdo */
+.conteudo-secundario {
+  display: flex; /* Utiliza flexbox para o layout */
+  flex-direction: column; /* Organiza os elementos filhos em uma coluna */
+  align-items: center; /* Centraliza os itens verticalmente */
+  gap: 24px; /* Adiciona espaçamento entre os elementos */
+  margin-top: 48px; /* Adiciona margem superior */
+}
+
+.conteudo-secundario-titulo {
+  /* Estilizando o título da seção secundária */
+  border-top: 0.4px solid #916848; /* Adiciona uma borda superior */
+  padding-top: 48px; /* Adiciona preenchimento superior */
+  font-family: 'Righteous', cursive; /* Utiliza a família de fontes 'Righteous' */
+  font-weight: 400; /* Define o peso da fonte */
+  font-size: 24px; /* Define o tamanho da fonte */
+  color: #916848; /* Define a cor do texto */
+  margin-bottom: 16px; /* Adiciona margem inferior */
+}
+
+.tecLogo {
+    gap: 10px;
+display: flex; /* Utiliza flexbox para o layout do menu */
+flex-direction: row; /* Organiza os elementos filhos em uma linha */
+
+}
+
+/* Estilizando a seção do rodapé */
+.rodape {
+    padding: 10px; /* Adiciona preenchimento */
+    border-top: 0.4px solid #916848; /* Adiciona uma borda superior */
+    flex-direction: column;
+    display: flex;
+}
+
+.rodape-imagem {
+  height: 48px; /* Define a altura da imagem do rodapé */
+  display: block; /* Define como bloco para centralizar */
+  margin: 0 auto; /* Adiciona margem automática para centralizar */
+}
+
+.rodape-texto {
+  height: 48px; /* Define a altura da imagem do rodapé */
+  display: block; /* Define como bloco para centralizar */
+  margin: 0 auto; /* Adiciona margem automática para centralizar */
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+  
+
